@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 import Layout from './Components/Layout/Layout'
-import rootclass from './index.module.css'
+import BurgerBuilder from './Container/BurgerBuilder/BurgerBuilder'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Layout className={rootclass.body}>
-          <p>Testing 1 2 3</p>
+        <Layout >
+          <BurgerBuilder></BurgerBuilder>
         </Layout>
       </div>
     )
